@@ -10,6 +10,7 @@ function GoalInput(props) {
 
   function addGoalHandler() {
     props.onAddGoal(enteredGoalText);
+    setEnteredGoalText('');
   }
     return (
         <View style={styles.inputContainer}>
